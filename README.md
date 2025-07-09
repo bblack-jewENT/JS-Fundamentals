@@ -1,1 +1,1 @@
-This is a Js file containing a messsage
+Js files containing code
