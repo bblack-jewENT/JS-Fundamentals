@@ -5,3 +5,6 @@ args = (args) => {
         console.log("Argument found: " + args);
     }
 }
+
+args(0);
+// args(2);
