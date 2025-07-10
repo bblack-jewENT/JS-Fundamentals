@@ -1,4 +1,4 @@
-args = (args) => {
+args = (args, args1) => {
     if (args === 0) {
         console.log("No argument");
     } else {
