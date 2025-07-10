@@ -6,5 +6,3 @@ function args(arg1, arg2) {
 }
 
 args("Python", "fun");
-args("HBTN");
-args();
