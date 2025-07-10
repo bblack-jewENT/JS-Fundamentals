@@ -1,10 +1,8 @@
-args = (args, args1) => {
-    if (args === 0) {
-        console.log("No argument");
-    } else {
-        console.log("Argument found: " + args);
-    }
+const firstArg = process.argv[2];
+
+if (firstArg === undefined) {
+    console.log("No argument");
+} else {
+    console.log(firstArg);
 }
 
-
-args(0, 2);
