@@ -1,17 +1,9 @@
-function name(nickname) {
-    console.log("No argument");
+const args = process.argv.slice(2);
+
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
 }
-
-name();
-
-function name1(nickname) {
-     console.log("Argument found");
-}
-
-name1("Goku");
-
-function name2(nickname, nickname2) {
-     console.log("Arguments found");
-}
-
-name2("Goku", "Vegeta");
