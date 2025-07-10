@@ -5,6 +5,6 @@ function args(arg1, arg2) {
     console.log(`${arg1} is ${arg2}`);
 }
 
-// args("Python", "fun");
-args("HBTN");
-// args();
+args("Python", "fun");
+args("HBTN", "");
+args("", "");
