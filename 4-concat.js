@@ -5,4 +5,10 @@ function args(arg1, arg2) {
     console.log(`${arg1} is ${arg2}`);
 }
 
-args("Python", "fun");
+if (arg1 === process.argv[2]) {
+    console.log(args("Python", "fun"));
+} else if (arg2 === process.argv[3]) {
+    console.log(args("HBTN"));
+} else {
+    console.log(args());
+}
